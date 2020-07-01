@@ -1,0 +1,35 @@
+:root {
+  --weightH1: 300;
+}
+
+@font-face {
+  font-family: "recursive";
+  src: url("recursive.ttf") format("truetype-variations");
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: "recursive";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-variation-settings: "wght" var(--weightH1);
+  font-size: 18vw;
+  color: #00AEEF;
+}
+
+#play {
+  font-variation-settings: "wght" 700;
+  margin-top: 1.5vw;
+  font-size: 2.5vw;
+}
